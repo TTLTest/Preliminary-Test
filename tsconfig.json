@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "es2020",
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "@wdio/mocha-framework",
+            "expect-webdriverio"
+        ],
+        "target": "es2019",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "baseUrl": "./test",
+        "paths": {
+          "*": ["*", "pageobjects/*", "util/*", "data/*"]
+        }
+    },
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"]
+}

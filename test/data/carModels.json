@@ -1,0 +1,15 @@
+{
+    "Electric":{
+        "panel": "1",
+        "cars": ["Volvo EX90", "XC40 Recharge", "C40 Recharge"]
+    },
+    "Hybrids":{
+        "panel": "2",
+        "cars": ["XC90 Recharge", "XC60 Recharge", "XC40 Recharge", "V90 Recharge", "V60 Recharge", "S90 Recharge", "S60 Recharge"]
+    },
+    "Mild_hybrids":{
+        "panel": "3",
+        "cars": ["XC90", "XC60", "XC40", "V90", "V60", "V90 Cross Country", "V60 Cross Country", "S90", "S60"]
+    }
+    
+}
